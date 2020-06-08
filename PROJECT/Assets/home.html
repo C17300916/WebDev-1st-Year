@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<head>
+	<title>A guide to Game of Thrones </title>
+	<link rel="stylesheet" type="text/css" href="CSS/site.css">
+	<script src="Scripts/site.js"></script>
+	<meta charset="UTF-8">
+	<meta name="description" content="A guide to Game of Thrones for beginners, an in depth begginers look to season 1">
+	<meta name="keywords" content= ", with Game of Thrones Characters, maps of Westeros, Great Houses, News on Game of Throne, Season 1 Game of Thrones, GoT">
+</head>
+
+<body onload="rotatePicts();">
+	<div id=main>
+		<header>
+
+			<h1>A Guide To:</h1>
+			<img src="Images/GoTLOGO.png" alt="Logo" />
+			
+			<div class="dropdown">
+				<button onclick="myFunction()" class="menu">Menu</button>
+				<div id="myMenu" class="menu-content">
+					<nav>
+						<a href="home.html">Home</a>
+						<a href="setting.html">Setting and Background</a>
+						<a href="characters.html">Characters</a>
+						<a href="books_show.html">Books vs Show</a>
+						<a href="news.html">News</a>
+					</nav>
+				</div>
+			</div>
+			
+		</header>
+		<section class="page1">
+			<h2>Purpose of this Website</h2>
+			<p>Welcome to a guide to Game of Thrones. This website is your beginners guide to the popular television series Game of Thrones. It is a multipurpose website with everything from a brief insight to the show, to a history and review of some of the main characters. This website is perfect for anyone thinking of watching the show or if you just want to see what its about. Feel free to explore this website for all the information you need! And don't worry, we have a strict NO spoilers policy on this site, so all of the exciting moments of the show will still be a surprise! Everything on this website is for the start of season 1 of the series, and no major plot points will be given away. From this website, we hope to encourage more and more people to enjoy the extravagent and exciting tv show, we guarantee that you will not regret it! Join the GoT(Game of thrones) Family!
+			</p>
+		</section>
+		<section class="page1">
+			<h2>What is Game of Thrones?</h2>
+			<p>Some of you might be wondering; "Well what is Game of Thrones?". Game of Thrones is an award winning HBO television series created by David Benioff and D.B.Weiss. The series is based on the series of fantasy novels, A Song of Ice and Fire, written by George R.R. Martin. It is critically renowned world wide with 38 Primetime Emmy Awards for its acting, complex plots and witty characters. Currently there has been 7 seasons and the 8th and final season will premiere in either 2018/19. It is an international phenomenon with millions of viewers from accross the globe! For example the season finale of season 7 had an outstanding 16.5 million viewers! It is clearly one of the most popular and arguably one of best shows of this generation! 
+			</p>
+		</section>
+		<div id=inline>
+				<div id=slider>
+					<h1>Iconic Images from GoT</h1>
+					<img id="rotator" src="Images/winterfell.jpg" alt="winterfell" />
+				</div>
+				<div id=form>
+					<h3>Registration for online forum</h3>
+					
+					<form action="server-script-url" name="regForm" id="usrform" onsubmit="return( validate() );">
+						<label>
+							<span>Firstname:</span><span class="errorMessage" id="firstnameMessage"></span>
+							<input class="generalInput" type="text" name="firstname" required>
+						</label>
+						
+						<label>
+							<span>Surname:</span><span class="errorMessage" id="surnameMessage"></span>
+							<input class="generalInput" type="text" name="surname" required>
+						</label>
+						<label>
+							<span>Email Address:</span>
+							<input class="generalInput" type="email" name="email">
+						</label>
+						
+						<label>
+							<span>Password:</span><span class="errorMessage" id="password1Message"></span>
+							<input class="generalInput" type="password" name="password1">
+						</label>
+						<label>
+							<span>Password:</span>
+							<input class="generalInput" type="password" name="password2">
+						</label>
+						
+						<label>
+							<span>Experience with Game of Thrones:</span><br>
+							<select class="GeneralInput">
+								<option value="None">None</option>
+								<option value="Small">Small</option>
+								<option value="Medium">Medium</option>
+								<option value="A_lot">A lot</option>
+								<option value="Expert">Expert</option>
+							</select><br>
+						</label>
+						
+						<label>
+							<span>Gender:</span><br>
+							<input class="clickInput" type="radio" name="gender" value="male" checked> Male<br>
+							<input class="clickInput" type="radio" name="gender" value="female"> Female<br>
+							<input class="clickInput" type="radio" name="gender" value="other"> Other<br>
+						</label>
+						
+						<label>
+							<span>Date of Birth:</span>
+							<input class="clickInput" type="date" name="DOB"><br>
+						</label>
+						
+						<label>
+							<span>How you would like to be contacted:</span><br>
+							<input class="clickInput" type="checkbox" name="contact" value="Email">Email<br>
+							<input class="clickInput" type="checkbox" name="contact" value=	"Facebook">Facebook<br>
+							<input class="clickInput" type="checkbox" name="contact" value="Twitter">Twitter<br>
+							<input class="clickInput" type="checkbox" name="contact" value="Instagram">Instagram<br>
+						</label>
+						
+						<textarea name="comment" form="usrform">Enter any suggestions here...</textarea>
+						<button type="submit">Submit</button>
+					</form>
+					
+				</div>
+		</div>
+		
+	</div>
+	<footer>
+		<p>Site by: Chris Brady &copy; 2017</p>
+	</footer>
+</body>
+</html>

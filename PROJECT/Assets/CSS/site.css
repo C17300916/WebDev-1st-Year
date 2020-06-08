@@ -1,0 +1,933 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+	margin-left: 40px;
+}
+
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+header h1{
+	text-align: center;
+	color: white;
+	font-family: Heather;
+	font-size: 2.5em;
+	margin-top: 3vh;
+}
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 18vh;
+	width: 45vw;
+}
+
+header{
+	background-image: url("../Images/headerIMG.jpg");
+
+}
+
+
+/* Dropdown Button */
+.menu {
+    background-color: white;
+    color: black;
+    padding: 2vw;
+    font-size: 2vw;
+    border: 2px black solid;
+	border-radius: 2px;
+    cursor: pointer;
+	font-family: heather;
+	font-weight: bold;
+}
+
+#main{
+	width: 90%;
+	min-height: 200vh;
+	background-image: url("../Images/blood4.jpg");
+	margin: auto;
+	border: 1px black solid;
+	margin-bottom: 10vh;
+}
+
+background-image{
+	opacity: 0.1;
+}
+/* Dropdown button on hover & focus */
+.menu:hover, .menu:focus {
+    background-color: #ffff66;
+}
+
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 10vh;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.menu-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+	font-weight: bold;
+}
+
+/* Change color of dropdown links on hover */
+.menu-content a:hover {background-color: #ffff66}
+
+.show {display:block;}
+
+
+//styling form
+
+h3{
+	color: green;
+	font-size: 2em;
+}
+
+span{
+	color: blue;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.errorMessage {
+	color: red;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.generalInput {
+	width: 20vh;
+	display: block;
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+
+.clickInput{
+	border: 1px solid orange;
+	margin-bottom: 7px;
+	margin-right: 10px;
+}
+
+/*styling the first page*/
+h2{
+	font-family: heather;
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+}
+.page1{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 70vw;
+	padding: 40px;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	font-family: Century Gothic;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+}
+.page1{
+	font-size: 1.2em
+}
+#slider{
+	margin-right: 2vw;
+	margin-left: 8vw;
+	display: inline-block;
+	text-align: center;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	background-color: white;
+	vertical-align: top;
+	margin-top:8vh;
+	height: 110vh;
+	border-bottom: 1px solid black;
+}
+#rotator{
+	width: 55vh;
+	height: 70vh;
+	padding-left: 4vw;
+	padding-right: 4vw;
+	padding-top: 10vh;
+	padding-bottom:3vh;
+	background-color: white;
+	display: inline-block;
+	
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	vertical-align: top;
+}
+#inline{
+	display:inline-block;
+}
+#form{
+	width: 60vh;
+	height: 110vh;
+	border: 1px solid black;
+	display: inline-block;
+	background-color: white;
+	padding-left: 5vw;
+	margin-left: 2vw;
+	vertical-align: top;
+	margin-top:8vh;
+	margin-bottom: 5vh;
+}
+footer{
+	text-align: center;
+	background-color: DarkRed;
+	padding: 5px;
+	color: white;
+}
+/*styling second page*/
+#full2{
+	display: inline-block;
+	
+}
+#intro2{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 30vw;
+	padding: 40px;
+	margin-left: 3vw;
+	font-family: Century Gothic;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	display: inline-block;
+}
+#map{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 37vw;
+	padding: 3vw;
+	margin-left: 3vw;
+	font-family: Century Gothic;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	display: inline-block;
+}
+#map img{
+	width: 35vw;
+}
+#fam{
+	border: 2px solid red;
+	border-radius: 5px;
+	
+	padding: 30px;
+	margin-left: 3vw;
+	margin-right: 3vw;
+	font-family: Century Gothic;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	
+}
+#fam h1{
+	text-align: center;
+	font-family: Constantia;
+}
+#stark{
+	display:inline-block
+}
+#starkpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#starkimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+#lannister{
+	display:inline-block
+}
+#lannisterpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#lannisterimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#baratheon{
+	display:inline-block
+}
+#baratheonpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#baratheonimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#martell{
+	display:inline-block
+}
+#martellpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#martellimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#tyrell{
+	display:inline-block
+}
+#tyrellpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#tyrellimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#arryn{
+	display:inline-block
+}
+#arrynpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#arrynimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#tully{
+	display:inline-block
+}
+#tullypara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#tullyimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#greyjoy{
+	display:inline-block
+}
+#greyjoypara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#greyjoyimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#bolton{
+	display:inline-block
+}
+#boltonpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#boltonimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+
+#frey{
+	display:inline-block
+}
+#freypara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#freyimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+#targaryen{
+	display:inline-block
+}
+#targaryenpara{
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 36vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#targaryenimg{
+	display: inline-block;
+	width: 20vw;
+	height: 30vh;
+	margin-top: 8vh;
+}
+
+#walker{
+	display: inline-block;
+}
+#walkerpara{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 40vw;
+	padding: 40px;
+	margin-left: 10vw;
+	font-family: Century Gothic;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	display: inline-block;
+}
+	
+#walkerimg{
+	display: inline-block;
+	width: 20vw;
+	height: 50vh;
+	margin-top: 8vh;
+	margin-left:5vw;
+	margin-right: 5vw;
+	
+}
+#setting{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 60vw;
+	padding: 40px;
+	margin-left: 10vw;
+	font-family: Century Gothic;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	display: inline-block;
+}
+
+/*page 3 styling*/
+#page3{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 70vw;
+	padding: 40px;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	display: inline-block;
+}
+#page3 p{
+	font-family: Century Gothic;
+	font-size: 1.2em;
+	
+}
+#page3 h1{
+	font-family: heather;
+	font-size: 2.1em;
+	text-align: center;
+}
+#eddard{
+	display:inline-block
+}
+#eddardpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+	vertical-align: top;
+	
+}
+#eddardimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+	
+}
+
+#catelyn{
+	display:inline-block
+}
+#catelynpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#catelynimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+
+#robert{
+	display:inline-block
+}
+#robertpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#robertimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+
+#jaime{
+	display:inline-block
+}
+#jaimepara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#jaimeimg{
+	display: inline-block;
+	width: 15vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+#tywin{
+	display:inline-block
+}
+#tywinpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#tywinimg{
+	display: inline-block;
+	width: 15vw;
+	height: 40vh;
+	margin-top: 8vh;
+	
+}
+
+#cersei{
+	display:inline-block
+}
+#cerseipara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#cerseiimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+#tyrionard{
+	display:inline-block
+}
+#tyrionpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#tyrionimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+
+#petyr{
+	display:inline-block
+}
+#petyrpara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#petyrimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+
+/*4th page styling*/
+#books{
+	display:inline-block
+}
+#bookspara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 35vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#booksimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+
+#series{
+	display:inline-block
+}
+#seriespara {
+	border: 2px solid red;
+	border-radius: 5px;
+	vertical-align: top;
+	padding: 5px;
+	margin-left: 3vw;
+	width: 55vw;
+	height: 33vh;
+	font-family: georgia;
+	background-color: lightblue;
+	margin-bottom: 4vh;
+	margin-top:5vh;
+	display: inline-block;
+	margin-right: 5vw;
+}
+#seriesimg{
+	display: inline-block;
+	width: 20vw;
+	height: 40vh;
+	margin-top: 8vh;
+}
+
+#maindiff{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 70vw;
+	padding: 40px;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	display: inline-block;
+}
+#maindiff p{
+	font-family: Century Gothic;
+	font-size: 1.2em;
+	
+}
+#maindiff h1{
+	font-family: heather;
+	font-size: 2.1em;
+	text-align: center;
+}
+#vote{
+	border: 2px solid red;
+	border-radius: 5px;
+	margin-left: 20vw;
+	margin-bottom: 5vh;
+	background-color: white;
+	margin-right: 20vw;
+	
+}	
+#vote h1{
+	font-family: heather;
+	text-align: center;
+	
+}
+#vote form{
+	text-align: center;
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+/*page 5 stying*/
+
+#page5{
+	border: 2px solid red;
+	border-radius: 5px;
+	width: 70vw;
+	padding: 40px;
+	margin-left: 6vw;
+	margin-right: 6vw;
+	background-color: #ffe6e6;
+	margin-bottom: 8vh;
+	margin-top:8vh;
+	display: inline-block;
+}
+#page5 p{
+	font-family: Century Gothic;
+	font-size: 1.2em;
+	
+}
+#page5 h1{
+	font-family: heather;
+	font-size: 2.1em;
+	text-align: center;
+}
+#trailer{
+	border: 2px solid red;
+	border-radius: 5px;
+	background-color: white;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	
+}
+#trailer iframe{
+	border: 1px solid black;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	
+}
+#trailer h1{
+	text-align: center;
+	font-family: heather;
+}
